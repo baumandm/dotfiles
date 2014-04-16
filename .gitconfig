@@ -1,5 +1,9 @@
+[color]
+    ui = always
 [core]
 	editor = nano
+    excludesfile = ~/.gitignore
+    attributesfile = ~/.gitattributes
 [push]
 	default = simple
 [http]
