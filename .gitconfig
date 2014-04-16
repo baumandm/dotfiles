@@ -1,0 +1,6 @@
+[core]
+	editor = nano
+[push]
+	default = simple
+[http]
+	sslVerify = true
