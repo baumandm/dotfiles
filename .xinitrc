@@ -17,6 +17,5 @@ fi
 xset +fp /usr/share/fonts/local
 xset fp rehash
 
-
 exec cinnamon-session
 # ...or the Window Manager of your choice
