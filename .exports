@@ -1,3 +1,5 @@
+export M2_HOME="/usr/bin/mvn"
+
 # Make vim the default editor
 export EDITOR="nano"
 export VISUAL="/usr/bin/nano"
