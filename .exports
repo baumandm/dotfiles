@@ -1,4 +1,4 @@
-export M2_HOME="/usr/bin/mvn"
+export M2_HOME="/opt/maven"
 
 # Make vim the default editor
 export EDITOR="nano"
