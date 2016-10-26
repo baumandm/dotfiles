@@ -8,3 +8,5 @@
 
 /bin/bash --login -i ~/.xinitrc
 
+# Disable system beep
+xset b off
