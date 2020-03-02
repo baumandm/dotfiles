@@ -1,0 +1,14 @@
+[user]
+	email = baumandm@gmail.com
+	name = Dave Bauman
+[color]
+    ui = always
+[core]
+    editor = nano
+    excludesfile = ~/.gitignore
+    attributesfile = ~/.gitattributes
+[push]
+    default = simple
+[http]
+    sslVerify = true
+
