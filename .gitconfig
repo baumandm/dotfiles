@@ -1,12 +1,15 @@
 [user]
-	email = baumandm@gmail.com
-	name = Dave Bauman
+    email = dave@davebauman.io
+    name = Dave Bauman
+    signingkey = 3AF96C27EDA2C9D4
 [color]
     ui = always
 [core]
     editor = nano
     excludesfile = ~/.gitignore
     attributesfile = ~/.gitattributes
+[commit]
+    gpgsign = true
 [push]
     default = simple
 [http]
