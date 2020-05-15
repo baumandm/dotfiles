@@ -79,5 +79,5 @@ export SAVEHIST=$HISTSIZE
 setopt EXTENDED_HISTORY
 
 # Aliases
-alias config='/usr/bin/git --git-dir=/home/baumandm/src/dotfiles --work-tree=/home/baumandm'
+alias config='/usr/bin/git --git-dir=/home/baumandm/src/dotfiles.git --work-tree=/home/baumandm'
 
