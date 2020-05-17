@@ -79,5 +79,14 @@ export SAVEHIST=$HISTSIZE
 setopt EXTENDED_HISTORY
 
 # Aliases
-alias config='/usr/bin/git --git-dir=/home/baumandm/src/dotfiles.git --work-tree=/home/baumandm'
+alias dotfiles='/usr/bin/git --git-dir=/home/baumandm/src/dotfiles.git --work-tree=/home/baumandm'
 
+# External plugins
+if [ -e /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh ]
+then
+    source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
+fi
+if [ -e /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh ]
+then
+    source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+fi
