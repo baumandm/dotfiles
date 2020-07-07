@@ -15,3 +15,5 @@
 [http]
     sslVerify = true
 
+[pull]
+	ff = only
