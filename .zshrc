@@ -85,6 +85,7 @@ setopt EXTENDED_HISTORY
 
 # Aliases
 alias dotfiles='/usr/bin/git --git-dir=/home/baumandm/src/dotfiles.git --work-tree=/home/baumandm'
+alias ls='ls --color=auto'
 
 # External plugins
 if [ -e /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh ]
@@ -96,4 +97,8 @@ then
     source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 fi
 
-alias ls='ls --color=auto'
+# Source nvm ()
+if [ -e /usr/share/nvm/init-nvm.sh ]
+then 
+  source /usr/share/nvm/init-nvm.sh
+fi
