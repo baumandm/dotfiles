@@ -53,7 +53,8 @@ DialogWidth=720
 
 [Containments][22][Applets][23][Configuration][General]
 favoritesPortedToKAstats=true
-icon=/home/baumandm/Archlinux-icon-crystal-64.svg
+icon=/home/baumandm/.local/share/icons/archlinux-icon-crystal-64.svg
+systemFavorites=suspend\\,hibernate\\,reboot\\,shutdown
 
 [Containments][22][Applets][23][Configuration][Shortcuts]
 global=Alt+F1
