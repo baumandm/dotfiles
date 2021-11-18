@@ -33,6 +33,12 @@ Top=None
 TopLeft=None
 TopRight=None
 
+[NightColor]
+Active=true
+LatitudeAuto=39.7232
+LongitudeAuto=-85.9979
+NightTemperature=3700
+
 [Plugins]
 cubeslideEnabled=false
 desktopchangeosdEnabled=false
