@@ -1,4 +1,5 @@
 {
     "window.menuBarVisibility": "default",
-    "window.openFoldersInNewWindow": "on"
+    "window.openFoldersInNewWindow": "on",
+    "extensions.ignoreRecommendations": true
 }
